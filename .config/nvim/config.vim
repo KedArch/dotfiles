@@ -7,12 +7,6 @@ set guicursor=
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
-" Set omni completion to use by C-x C-o, scrolling by C-p or C-n
-set omnifunc=syntaxcomplete#Complete
-" Set completion options
-set completeopt=menuone,preview,noinsert
-" Hide preview after selecting completion
-autocmd CompleteDone * pclose
 " Turn on the Wild menu
 set wildmenu
 set wildmode=full

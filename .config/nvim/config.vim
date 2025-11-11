@@ -76,7 +76,7 @@ set wrap
 " Line numbers
 set number
 " Folding
-set foldmethod=indent
+set foldmethod=syntax
 " Spelling
 set spelllang=en,pl
 " Ask what to do when exit fail

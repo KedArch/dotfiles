@@ -77,6 +77,8 @@ set wrap
 set number
 " Folding
 set foldmethod=syntax
+" Completion
+set completeopt=menu,noinsert,popup,fuzzy
 " Spelling
 set spelllang=en,pl
 " Ask what to do when exit fail
